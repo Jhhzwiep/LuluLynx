@@ -1,0 +1,281 @@
+/* Reset Page Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Centering Everything */
+body {
+    background-color: #94abc2; /* Softer blue */
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;  /* Allows stacking navigation and content box */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Navigation Bubbles */
+.nav-container {
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 20px;
+}
+
+.nav-bubble {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.nav-bubble a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.nav-bubble a:hover {
+    color: #94abc2;
+}
+
+/* General Content Box (For Info, Links, and Previous Login Box) */
+.content-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    border: 3px solid black;  /* Black outline */
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 400px;  /* Wider for better layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Puffy Text (For Titles) */
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Buttons */
+button {
+    background-color: #94abc2;
+    color: white;
+    padding: 12px;
+    border: none;
+    width: 90%;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #7a98b2;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #94abc2;
+}
+
+/* Inline "Not a user?" and "Create an account" */
+.register-text {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.register-text a {
+    display: inline;
+    margin-left: 5px;
+}
+
+/* Logo (Emoji) */
+.emoji {
+    width: 80px;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Specific Styles for Index.html (Home Page) */
+
+/* Particles.js Background */
+#particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: -1; /* Keep it behind content */
+}
+
+/* Welcome Section */
+.welcome-section {
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+/* Reset Page Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Centering Everything */
+body {
+    background-color: #94abc2; /* Softer blue */
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Navigation Bubbles */
+.nav-container {
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 20px;
+}
+
+.nav-bubble {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.nav-bubble a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.nav-bubble a:hover {
+    color: #94abc2;
+}
+
+/* Content Box (Used for Info, Links, and Clips) */
+.content-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    border: 3px solid black;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Puffy Text */
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Buttons */
+button {
+    background-color: #94abc2;
+    color: white;
+    padding: 12px;
+    border: none;
+    width: 90%;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #7a98b2;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #94abc2;
+}
+
+/* Welcome Section */
+.welcome-section {
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Clips Section */
+.clip {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.clip iframe {
+    width: 100%;
+    max-width: 400px;
+    height: 225px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Particles.js Background */
+#particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: -1; /* Keep it behind content */
+}
+
+.welcome-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Ensures everything is centered */
+}
+
+.emoji-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px; /* Adds space between the emoji and text */
+}
